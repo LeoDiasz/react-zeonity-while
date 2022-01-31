@@ -1,6 +1,6 @@
 # Projeto ZeonityWhile
 
-<p style="margin: 20px 0; font-size: 16px">Esse Projeto foi desenvolvido em base do evento Nwl Heat da empresa Rocketseat, onde criamos um registro de mensagem para registrar oque as pessoas estavam achando do evento.</p>
+<p style="margin: 20px 0; font-size: 16px">Esse Projeto foi desenvolvido em base do evento Nwl Heat da empresa Rocketseat, onde é criado um registro de mensagem para registrar oque as pessoas estavam achando do evento.</p>
 
 <p style="margin: 20px 0; font-size: 16px">Fiz esse projeto todo com o recurso dos conteúdos disponibilizados pela Rocketseat.</p>
 
