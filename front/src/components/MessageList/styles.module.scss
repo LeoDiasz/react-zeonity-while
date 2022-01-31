@@ -1,0 +1,23 @@
+.messageListContentWrapper {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: flex-start;
+
+  > img {
+    height: 45px;
+    margin: 25px 0;
+  }
+} 
+
+
+.messageList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 60px;
+  flex: 1;
+  padding-bottom: 100px;
+} 
