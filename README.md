@@ -1,68 +1,79 @@
-# Projeto ZeonityWhile
+<h1 align="center">
+  <img alt="Logo askme" style="width: 200px"src="https://cdn.discordapp.com/attachments/936094333248086058/946209108741218344/logo.png" />
+</h1>
 
-<p style="margin: 20px 0; font-size: 16px">Esse Projeto foi desenvolvido em base do evento Nwl Heat da empresa Rocketseat, onde é criado um registro de mensagem para registrar oque as pessoas estavam achando do evento.</p>
-
-<p style="margin: 20px 0; font-size: 16px">Fiz esse projeto todo com o recurso dos conteúdos disponibilizados pela Rocketseat.</p>
-
-<section>
-  <h2 style="margin: 40px 0 20px " >Tecnologias utilizadas</h2>
-
-  <div style="margin-left: 20px ;display: flex; gap: 20px">
-    <img style="width: 35px"src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
-    <img style="width: 35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
-    <img style="width: 35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
-    <img style="width: 35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
-    <img style="width: 35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain-wordmark.svg" />
-    <img style="width: 35px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
-    <img style="width: 50px" src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg" />
-    
-  </div>
-</section>
-
-<section>
-  <h2 style="margin: 40px 0 20px " >Layout meu projeto</h2>
-
-  <div style="width: 1000px;display: grid; grid-template-columns: 1fr 1fr; gap: 40px">
-    <img src="https://cdn.discordapp.com/attachments/936094333248086058/937782754089779200/Home.png">
-    <img src="https://cdn.discordapp.com/attachments/936094333248086058/937782754790236240/homeLogado.png">
-  </div>
-</section>
-
-<section> 
-  <h2 style="margin: 40px 0 20px ">Layout base Rocketseat </h2>
-
-  <div style="width: 1000px;display: grid; grid-template-columns: 1fr 1fr; gap: 40px">
-    <img src="https://cdn.discordapp.com/attachments/936094333248086058/937784762175742012/home-rocket.png">
-    <img src="https://cdn.discordapp.com/attachments/936094333248086058/937784761743704085/home-logado.png">
-  </div>
-</section>
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">Como executar</a>
+</p>
 
 
+<p align="center">
+  
+  <a href="https://askme-project-81d23.web.app/">
+   <img alt="askme"  src="https://cdn.discordapp.com/attachments/936094333248086058/937782754089779200/Home.png" width="100%">
+ </a>
+ 
+</p>
 
-<div>
-  <h2 style="margin: 40px 0 20px">Requisitos Funcionais </h2>
-  <ul> 
-    <li> 
-      <p style="font-size: 16px; text-decoration: ">Logar diretamente com o Github.</p>
-    </li>
-    <li> 
-      <p style="font-size: 16px; text-decoration: ">Criar mensagens.</p>
-    </li>
-    <li> 
-      <p style="font-size: 16px; text-decoration: ">Buscar as 3 ultimas mensagens criadas.</p>
-    </li>
-  </ul>
-</div>
+## ⛏️ Tecnologias
 
-<div>
-  <h2 style="margin: 40px 0 20px">Regras de Negócio </h2>
-  <ul> 
-    <li> 
-      <p style="font-size: 16px; text-decoration: ">Esta autenticado para criar mensagem.</p>
-    </li>
-    <li> 
-      <p style="font-size: 16px; text-decoration: ">Se usuário não tiver conta no banco, criara automático com o github.</p>
-    </li>
-  </ul>
-</div>
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Reactjs](https://reactjs.org)
+- [Nodejs](https://nodejs.org/en/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Prisma](https://www.prisma.io/)
+- [PostgreSql](https://www.postgresql.org/)
+## 💻 Projeto
+
+Esse Projeto foi desenvolvido embasado ao evento Nwl Heat da empresa Rocketseat, com intuito de coletar as expectativas das pessoas para o evento.
+
+## 🔖 Layout
+
+Para visualizar o projeto [acesse o link](https://www.figma.com/file/4SnzQ0ohLISj6TbBobbqFf/ZeonityWhile?node-id=0%3A1). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+
+## 🚀 Como executar
+
+Clone o repositório
+```bash
+ $ git clone https://github.com/LeoDiasz/Zeonity-While.git
+```
+
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ yarn
+
+```
+
+O app estará disponivel no browser pelo endereço http://localhost:3000.
+
+Back-end estará disponivel no endereço http://localhost:4000.
+
+Lembrando que para criar seu sistema de autenticação, é necessagio criar um auth no [github](https://github.com/settings/developers).
+
+
+## 🔋 Requisitos Funcionais
+ - Logar diretamente com o Github.
+ - Criar mensagens.
+ - Buscar as 3 ultimas mensagens criadas..
+
+  
+## 📑 Regras de Negócio
+
+ - Esta autenticado para criar mensagem.
+ - Se usuário não tiver conta no banco, criara automáticamente ao logar com o github.
+
+
+
+
+
+
+
+
+
+
 
